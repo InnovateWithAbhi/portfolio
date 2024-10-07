@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   ComputerDesktopIcon,
   IdentificationIcon,
@@ -8,6 +8,7 @@ import {
   Bars3Icon,
 } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import profile from "../assets/profile.jpg";
 
 const Sidebar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,8 +26,8 @@ const Sidebar = () => {
             className="w-full inline-flex items-center justify-start nav-link p-2"
           >
             <img
-              src="http://via.placeholder.com/48"
-              alt=""
+              src={profile}
+              alt="Profile Photo"
               width={48}
               height={48}
               className="object-fill rounded-full me-4"
