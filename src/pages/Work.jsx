@@ -1,6 +1,5 @@
 import { SparklesIcon } from "@heroicons/react/16/solid";
-import React from "react";
-
+import ecommerce from "../assets/e-commerce.jpeg";
 import { Link } from "react-router-dom";
 
 const Work = () => {
@@ -26,13 +25,13 @@ const Work = () => {
               <div className="px-3 pt-3 relative">
                 <p className="name m-0 mb-3 py-2 text-lg">Project 1</p>
                 <img
-                  src="http://via.placeholder.com/320x320"
+                  src={ecommerce}
                   alt="Project 2 Mockup"
                   className="w-full h-auto"
                 />
               </div>
               <img
-                src="http://via.placeholder.com/320x320"
+                src={ecommerce}
                 alt="Hover Image"
                 className="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100"
               />

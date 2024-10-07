@@ -1,6 +1,6 @@
 import { SparklesIcon } from "@heroicons/react/24/solid";
-import React from "react";
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
+import ecommerce from "../assets/e-commerce.jpeg";
 
 const Project1 = () => {
   return (
@@ -19,7 +19,7 @@ const Project1 = () => {
         <section className="">
           <div className="w-full h-[640px] px-16 bg-red-100 overflow-hidden ">
             <img
-              src="http://via.placeholder.com/1280x720"
+              src={ecommerce}
               alt="Project 1 Mockup"
               className="w-full h-auto"
             />
@@ -56,8 +56,8 @@ const Project1 = () => {
               <span className="block font-medium mb-2">Project Overview</span>
               <span className="">
                 We are committed to delivering innovative solutions that empower
-                businesses to thrive in today's digital landscape.Our project
-                aims to revolutionize the way organizations operate, leveraging
+                businesses to thrive in today digital landscape.Our project aims
+                to revolutionize the way organizations operate, leveraging
                 cutting-edge technology and strategic insights to drive
                 sustainable growth and success.
               </span>

@@ -1,5 +1,4 @@
 import { SparklesIcon } from "@heroicons/react/16/solid";
-import React from "react";
 
 const Experience = () => {
   return (
